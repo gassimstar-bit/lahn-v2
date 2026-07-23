@@ -1,0 +1,30 @@
+# ══════════════════════════════════════════════════════
+# ملفات لا تُرفع على GitHub
+# ══════════════════════════════════════════════════════
+
+# ⚠️ مفاتيح Supabase السرية
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# المكتبات
+node_modules/
+
+# ملفات البناء
+dist/
+dist-ssr/
+.vite/
+
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# المحررات
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
